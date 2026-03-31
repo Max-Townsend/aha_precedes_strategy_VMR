@@ -1,0 +1,63 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Local environments / OS files
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+
+# Local tools / databases
+optuna.db
+anaconda_projects/
+outcmaes/
+
+# Generated figure and analysis output directories
+paperFigures/
+indiPlots/
+indiPlotsDing/
+indiPlotsNoModel/
+indiPlotsSignConfidence/
+dingIndiPlotsModel/
+individualModelDistPlots/
+dingIndividualModelDistPlots/
+phasePlots/
+dingPhasePlots/
+ahaPhasePlots/
+wholePPC_perPart/
+dingWholePPC_perPart/
+model_recovery_figs/
+param_recovery/
+modelData/
+
+# Large cached fit artifacts and pickles
+*.npy
+*.npz
+*.pkl
+
+# Generated CSVs and other derived artifacts
+changepoints.csv
+model_changepoints.csv
+ding_changepoints.csv
+ding_modified.csv
+simulated_human.csv
+confusion_*.csv
+implicit_simulations_*.csv
+
+# Generated image exports
+ahaIndicesHistogram.png
+
+# Optional large archive artifacts
+sfmsConFlipsVanilla8AllPPs.zip
+
+# Local-only scratch and upload bundles
+ARCHIVEPaperFigure.ipynb
+README.txt
+Untitled.ipynb
+Untitled1.ipynb
+environment.yml
+osf_upload/
